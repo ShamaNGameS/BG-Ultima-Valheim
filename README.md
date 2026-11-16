@@ -13,6 +13,10 @@
 - Удалены BetterTames 0.9.0, Seasonality и мод рюкзаков.
 - Обновлены CustomLoadingScreens, Artisan Mastery, Hunter Legacy, TeleportCarts, TeleportCreatures, TeleportEverything и WackysDatabase. Добавлен TeleportBoats как зависимость TeleportEverything.
 - В конфигурации Custom Main Menu отключён автоматический показ панели изменений при старте; открыть её можно кнопкой «Изменения».
+- Отключена горячая клавиша открытия окна настроек всех модов SeneaL UI (`ModSettings = None`); клавиша настроек интерфейса F7 сохранена.
+- StaminaExtended удалён из активных плагинов и конфигов. Path of Valheiman продолжает менять выносливость через еду, отдых, дерево навыков и способности. Удаление StaminaExtended вступает в силу после перезапуска.
+- Архивы отключённых пакетов и конфиг сезонного события Deathsquito вынесены из активной папки BepInEx и сохранены локально.
+- Проверены 113 пакетов с манифестами. В просмотренном логе нет ошибок загрузки BepInEx, но зафиксировано 1 843 повторных `NullReferenceException` из `BGPetSystem.PetWheel.DrawTargetMarker` при вызове `Character.GetHeadPoint`; исправление и повторная проверка остаются задачей.
 
 ### Патч совместимости 0.6.7
 
